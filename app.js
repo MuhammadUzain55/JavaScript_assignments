@@ -1,4 +1,4 @@
-// ================================= Chapter# 1 ALERT =============================
+// ================================= Chapter# 1 (ALERT) =============================
 
 // Qno.1: Write a script to greet your website visitor using JS alert box.
 
@@ -25,5 +25,43 @@
 
 // Qno.6: Make use of alerts in your new/existing HTML & CSS project.
 
-alert("HTML & CSS project");
+// alert("HTML & CSS project");
+
+// Qno.7: Practice placement of <script></script> element in
+// following sections of your project in exercise 6:
+// a. Head
+// b. Body (before your page’s HTML)
+// c. Body (inside your page’s HTML)
+// d. Body (after your page’s HTML)
+
+// Ans: d.
+
+// ================================ Chapter# 2 (VARIABLES FOR STRINGS)=======================
+
+// Qno.1: Declare a variable called username.
+
+// var userName = "Uzain"
+
+// Qno.2: Declare a variable called myName & assign to it a string
+// that represents your Full Name.
+
+// var myName = "Muhammad Uzain Sheikh"
+
+// Qno.3: Write script to
+// a) Declare a JS variable, titled message.
+// b) Assign “Hello World” to variable message
+// c) Display the message in alert box.
+
+// var message = "Hello World";
+// alert(message);
+
+// Qno.4: Write a script to save student’s bio data in JS variables and
+// show the data in alert boxes.
+
+// var name = "Uzain Sheikh";
+// var age = "21 Year's old";
+// var profession = "Certified Mobile Application Development";
+// alert(name);
+// alert(age);
+// alert(profession);
 
