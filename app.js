@@ -21,5 +21,9 @@
 
 // Qno.5: Generate the following message through browser’s developer console:
 
-console.log("Hello... I can run JS through my web browser's console");
+// console.log("Hello... I can run JS through my web browser's console");
+
+// Qno.6: Make use of alerts in your new/existing HTML & CSS project.
+
+alert("HTML & CSS project");
 
