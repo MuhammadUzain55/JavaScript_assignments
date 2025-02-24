@@ -96,3 +96,17 @@
 // alert(design);
 // document.write(design);
 
+// ================================== Chapter# 3 (VARIABLES FOR NUMBERS) =======================
+
+// Qno.1: Declare a variable called age & assign to it your age. Show
+// your age in an alert box.
+
+// var age = "I am 21 years old";
+// alert(age);
+
+// Qno.2: Declare & initialize a variable to keep track of how many
+// times a visitor has visited a web page. Show his/her
+// number of visits on your web page. For example: “You
+// have visited this site N times”.
+
+var tracker = 
