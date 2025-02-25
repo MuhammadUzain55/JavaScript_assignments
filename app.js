@@ -109,4 +109,19 @@
 // number of visits on your web page. For example: “You
 // have visited this site N times”.
 
-var tracker = 
+// var visitCount = localStorage.getItem("visitCount");
+// if (visitCount === null) {
+//     visitCount = 1;
+// } else {
+//     visitCount = parseInt(visitCount) + 1;
+// }
+// localStorage.setItem("visitCount", visitCount);
+// alert("You have visited this site" + " " + visitCount + " " + "times.");
+
+// Qno.3: Declare a variable called birthYear & assign to it your
+// birth year. Show the following message in your browser:
+
+var birthYear = 2004;
+document.write("<p>MY birth year is $birthYear</p>")
+
+
