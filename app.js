@@ -173,4 +173,20 @@
 // number, uppercase letter or lower case letter. (Hint: ASCII
 // codes:- A=65, Z=90, a=97, z=122).
 
-// Ans: 
+var inputChar = prompt("Enter a character (number or letter):");
+var asciiCode = inputChar.charCodeAt(0);
+// Check if it's a number (0-9)
+if (asciiCode >= 48 && asciiCode <= 57) {
+    alert("You entered a number.");
+}
+// Check if it's an uppercase letter (A-Z)
+else if (asciiCode >= 65 && asciiCode <= 90) {
+    alert("You entered an uppercase letter.");
+}
+// Check if it's a lowercase letter (a-z)
+else if (asciiCode >= 97 && asciiCode <= 122) {
+    alert("You entered a lowercase letter.");
+}
+else {
+    alert("You entered a special character or an invalid input.");
+}
