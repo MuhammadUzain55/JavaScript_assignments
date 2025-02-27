@@ -160,8 +160,17 @@
 // d) Variable names are case _________
 // e) Variable names should not be JS _________
 
-document.write("<h1>Rules for naming JS variables</h1>");
-document.write("<p>Variable names can only contain, numbers, $ and _. For example: $my_1stVariable</p>")
-document.write("<P>Variables must begin with a letter, $ or _. For example $name, _name or name</p>")
-document.write("<P>Variable names are case sensitive</p>")
-document.write("<P>Variable names should not be JS keywords</p>")
+// document.write("<h1>Rules for naming JS variables</h1>");
+// document.write("<p>Variable names can only contain, numbers, $ and _. For example: $my_1stVariable</p>")
+// document.write("<P>Variables must begin with a letter, $ or _. For example $name, _name or name</p>")
+// document.write("<P>Variable names are case sensitive</p>")
+// document.write("<P>Variable names should not be JS keywords</p>")
+
+// ========================= Chapter# 12-13 (IF...ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS) ====================
+
+// Qno.1: Write a program that takes a character (number or string)
+// in a variable & checks whether the given input is a
+// number, uppercase letter or lower case letter. (Hint: ASCII
+// codes:- A=65, Z=90, a=97, z=122).
+
+// Ans: 
