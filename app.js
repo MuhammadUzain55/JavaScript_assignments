@@ -194,7 +194,16 @@
 // Qno.2: Write a JavaScript program that accept two integers and
 // display the larger. Also show if the two integers are equal.
 
-// Ans: 
+// Ans: let number1 = parseInt(prompt("Enter first integer: "));
+// let number2 = parseInt(prompt("Enter second integer: "));
+
+// if (number1 > number2) {
+//     alert(number1 + " is larger.");
+// } else if (number2 > number1) {
+//     alert(number2 + " is larger.");
+// } else {
+//     alert("Both numbers are equal.");
+// }
 
 // Qno.3: Write a program that takes input a number from user &
 // state whether the number is positive, negative or zero.
