@@ -166,6 +166,77 @@
 // document.write("<P>Variable names are case sensitive</p>")
 // document.write("<P>Variable names should not be JS keywords</p>")
 
+// ========================= Chapter# 9-11 (USER INPUT & CONDITIONAL STATEMENT) =================================
+
+// Qno.1: Write a program to take “city” name as input from user. If
+// user enters “Karachi”, welcome the user like this:
+// “Welcome to city of lights”
+
+// Ans:
+
+// Qno.2: Write a program to take “gender” as input from user. If the
+// user is male, give the message: Good Morning Sir. If the
+// user is female, give the message: Good Morning Ma’am.
+
+// Ans:
+
+// Qno.3: Write a program to take input color of road traffic signal
+// from the user & show the message according to this table:
+// Signal color Message
+// Red Must Stop
+// Yellow Ready to move
+// Green Move now
+
+// Qno.4: Write a program to take input remaining fuel in car (in
+// litres) from user. If the current fuel is less than 0.25litres,
+// show the message “Please refill the fuel in your car”
+
+// Ans: 
+
+// Qno.5: Run this script, & check whether alert message would be
+// displayed or not. Record the outputs.
+// a. var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+// b. var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+// c. var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+// d. var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+// e. if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+// f. if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+
+// Ans: 
+
+
+
+
 // ========================= Chapter# 12-13 (IF...ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS) ====================
 
 // Qno.1: Write a program that takes a character (number or string)
@@ -243,5 +314,6 @@
 // hours clock format like: 1900 = 7pm. Implement the
 // following case using if, else & else if statements
 
-// ========================= Chapter# 4 ()
 
+
+// exlain in easy wprd without missing any point
