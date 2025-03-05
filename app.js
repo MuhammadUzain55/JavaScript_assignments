@@ -172,7 +172,7 @@
 // user enters “Karachi”, welcome the user like this:
 // “Welcome to city of lights”
 
-// Ans:
+// Ans: 
 
 // Qno.2: Write a program to take “gender” as input from user. If the
 // user is male, give the message: Good Morning Sir. If the
@@ -234,7 +234,7 @@
 
 // Ans: 
 
-
+// Qno.6: 
 
 
 // ========================= Chapter# 12-13 (IF...ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS) ====================
