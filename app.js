@@ -160,7 +160,7 @@
 // d) Variable names are case _________
 // e) Variable names should not be JS _________
 
-// document.write("<h1>Rules for naming JS variables</h1>");
+// Ans: document.write("<h1>Rules for naming JS variables</h1>");
 // document.write("<p>Variable names can only contain, numbers, $ and _. For example: $my_1stVariable</p>")
 // document.write("<P>Variables must begin with a letter, $ or _. For example $name, _name or name</p>")
 // document.write("<P>Variable names are case sensitive</p>")
@@ -172,7 +172,10 @@
 // user enters “Karachi”, welcome the user like this:
 // “Welcome to city of lights”
 
-// Ans: 
+var cityName = prompt("city");
+if (cityName == "Karachi") {
+    alert("Welcome to city of lights")
+}
 
 // Qno.2: Write a program to take “gender” as input from user. If the
 // user is male, give the message: Good Morning Sir. If the
