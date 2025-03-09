@@ -365,7 +365,7 @@ Ans: */
 // hours clock format like: 1900 = 7pm. Implement the
 // following case using if, else & else if statements
 
-
+// ===================== JavaScript practice =======================
 
 // let num = parseInt(inp); // Don't change this line
 // // Type your code below
@@ -374,3 +374,8 @@ Ans: */
 // } else {
 //     console.log("F")
 // }
+
+// let age = parseInt(inp); // Don't change this line
+// // Type your code below
+// let missingYears = 120 - age;
+// console.log(`${missingYears} years till 120`);
