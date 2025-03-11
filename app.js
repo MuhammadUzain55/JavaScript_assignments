@@ -379,3 +379,8 @@ Ans: */
 // // Type your code below
 // let missingYears = 120 - age;
 // console.log(`${missingYears} years till 120`);
+let num = 0;
+for (let i = 3; i <= 27; i++) {
+    num = i;
+    console.log(`Hello Coddy: ${num}`);
+}
