@@ -424,9 +424,20 @@ Ans: */
 //     }
 // }
 
-for (let i = 1; i <= 20; i++) {
-    console.log(i);
-    if (i * 4) {
-        continue;
-    }
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 4 == 0) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+let num = 1 *2 *3*4*5*6*7*8;
+console.log(num)
+
+let n = 8;
+let res = 1;
+
+for (let i = 1; i <= n; i++) {
+    res *= i
 }
+console.log(res);
