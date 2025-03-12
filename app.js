@@ -379,8 +379,54 @@ Ans: */
 // // Type your code below
 // let missingYears = 120 - age;
 // console.log(`${missingYears} years till 120`);
-let num = 0;
-for (let i = 3; i <= 27; i++) {
-    num = i;
-    console.log(`Hello Coddy: ${num}`);
+// let num = 0;
+// for (let i = 3; i <= 27; i++) {
+//     num = i;
+//     console.log(`Hello Coddy: ${num}`);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`7 x ${i} = ${7 * i}`);
+// }
+
+// let number = 27;
+// let power_of_two = 1;
+
+// while (power_of_two <= number) {
+//     power_of_two *= 2;
+// }
+
+// console.log(power_of_two);
+
+// let number = 35;
+// while (3.5 <= number) {
+//     number /= 2;
+// }
+// console.log(number);
+
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 2 == 1) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+// let number = 5;
+// while (number <= 100) {
+//     number *= 2;
+// }
+// console.log(number);
+
+// for (let i = 1; i <= 20; i++) {
+//     console.log(i);
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         break;
+//     }
+// }
+
+for (let i = 1; i <= 20; i++) {
+    console.log(i);
+    if (i * 4) {
+        continue;
+    }
 }
