@@ -456,10 +456,20 @@ Ans: */
 //     count -= 2;
 // } while (count >= 0)
 
-let n = 6;
+let n = 12;
 
-for (let i = 1; i < n; i++) {
-    for (let y = 5; y > n; y--) {
-        console.log(i, y);
+// for (let i = 1; i < n; i++) {
+//     for (let y = 1; y < n; y++) {
+//         if (i + y === n) {
+//             console.log(i, y);
+//         }
+//     }
+// };
+
+for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; j++) {
+        if (i * j === n) {
+            console.log(i, j);
+        }
     }
 }
