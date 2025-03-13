@@ -431,13 +431,35 @@ Ans: */
 //     console.log(i);
 // }
 
-let num = 1 *2 *3*4*5*6*7*8;
-console.log(num)
+// let num = 1 *2 *3*4*5*6*7*8;
+// console.log(num)
 
-let n = 8;
-let res = 1;
+// let n = 8;
+// let res = 1;
 
-for (let i = 1; i <= n; i++) {
-    res *= i
+// for (let i = 1; i <= n; i++) {
+//     res *= i
+// }
+// console.log(res);
+
+// let count = 5;
+
+// do {
+//     console.log(count);
+//     count -= 1;
+// } while (count > 0);
+
+// let count = 10;
+
+// do {
+//     console.log(`Counting down: ${count}`);
+//     count -= 2;
+// } while (count >= 0)
+
+let n = 6;
+
+for (let i = 1; i < n; i++) {
+    for (let y = 5; y > n; y--) {
+        console.log(i, y);
+    }
 }
-console.log(res);
