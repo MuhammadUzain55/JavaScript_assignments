@@ -466,10 +466,24 @@ let n = 12;
 //     }
 // };
 
-for (let i = 1; i <= n; i++) {
-    for (let j = 1; j <= n; j++) {
-        if (i * j === n) {
-            console.log(i, j);
-        }
-    }
+// for (let i = 1; i <= n; i++) {
+//     for (let j = 1; j <= n; j++) {
+//         if (i * j === n) {
+//             console.log(i, j);
+//         }
+//     }
+// }
+
+
+function calculateSum () { 
+    let num = 10000;
+    let total = (num * (num + 1) / 2);
+    console.log(total);
+}
+
+let numExecutions = 5;
+ 
+
+for (let i = 0; i < numExecutions; i++) {
+    calculateSum();
 }
