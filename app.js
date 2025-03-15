@@ -456,7 +456,7 @@ Ans: */
 //     count -= 2;
 // } while (count >= 0)
 
-let n = 12;
+// let n = 12;
 
 // for (let i = 1; i < n; i++) {
 //     for (let y = 1; y < n; y++) {
@@ -475,15 +475,60 @@ let n = 12;
 // }
 
 
-function calculateSum () { 
-    let num = 10000;
-    let total = (num * (num + 1) / 2);
-    console.log(total);
-}
+// function calculateSum () { 
+//     let num = 10000;
+//     let total = (num * (num + 1) / 2);
+//     console.log(total);
+// }
 
-let numExecutions = 5;
+// let numExecutions = 5;
  
 
-for (let i = 0; i < numExecutions; i++) {
-    calculateSum();
+// for (let i = 0; i < numExecutions; i++) {
+//     calculateSum();
+// }
+
+
+// let a = 9;
+// let b = 9;
+
+// function calculateProduct (a, b) {
+//     let calculateNum = a * b;
+//     console.log(calculateNum);
+// }
+
+// calculateProduct(a , b);
+
+// let num1 = 6;
+// let num2 = 6000;
+
+// function sumRange(num1, num2) {
+//     let count = 0;
+//     for (let i = num1; i <= num2; i++) {
+//         count += i;
+//     }
+//     console.log(`The sum of numbers from ${num1} to ${num2} is ${count}`);
+//  }
+
+//  sumRange(num1, num2);
+
+// let num = 5;
+// // Type your code below
+// function square(n) {
+//     return n * n;
+// }
+
+// let result = square(num);
+// console.log(result);
+
+let num = 5;
+function sigma(n) {
+    // Write code here
+    for (let i = 1; i <= n; i++) {
+        n += i;
+    }
+    return n;
 }
+
+sigma(num);
+console.log("hello");
