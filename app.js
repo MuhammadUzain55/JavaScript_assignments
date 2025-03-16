@@ -521,14 +521,20 @@ Ans: */
 // let result = square(num);
 // console.log(result);
 
-let num = 5;
-function sigma(n) {
-    // Write code here
-    for (let i = 1; i <= n; i++) {
-        n += i;
-    }
-    return n;
-}
+// let num = 5;
+// function sigma(n) {
+//     // Write code here
+//     for (let i = 1; i <= n; i++) {
+//         n += i;
+//     }
+//     return n;
+// }
 
-sigma(num);
-console.log("hello");
+// sigma(num);
+// console.log("hello");
+
+let calculateBMI = (weight, height) => weight / (height * height)
+
+// Don't change the lines below
+console.log(calculateBMI(70, 1.75));
+console.log(calculateBMI(80, 1.8));
