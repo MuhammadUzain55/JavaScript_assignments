@@ -533,8 +533,18 @@ Ans: */
 // sigma(num);
 // console.log("hello");
 
-let calculateBMI = (weight, height) => weight / (height * height)
+// let calculateBMI = (weight, height) => weight / (height * height)
 
-// Don't change the lines below
-console.log(calculateBMI(70, 1.75));
-console.log(calculateBMI(80, 1.8));
+// // Don't change the lines below
+// console.log(calculateBMI(70, 1.75));
+// console.log(calculateBMI(80, 1.8));
+
+// let sumOfEven = (n) => {
+//     let calculateSum = 0;
+//     for (let i = 1; i <= n; i++) {
+//         if (i % 2 == 0) {
+//             calculateSum += i;
+//         }
+//     }
+//     return calculateSum;
+// };
