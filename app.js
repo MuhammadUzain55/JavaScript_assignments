@@ -548,3 +548,25 @@ Ans: */
 //     }
 //     return calculateSum;
 // };
+
+let num = 23;
+
+
+for(let i = 1; i <= num; i++) {
+    function Fizzbuzz(num) {
+        if (num % 3 === 0 && num % 7 === 0) {
+            return "FizzBuzz";
+        } else if (num % 3 === 0) {
+            return "Fizz";
+        } else if (num % 7 === 0) {
+            return "Buzz";
+        } else if (String(num).includes('3')) {
+            return "Almost Fizz"
+        } else {
+            return String(num);
+        }
+    }
+    console.log(Fizzbuzz(i));
+}
+
+
