@@ -549,24 +549,31 @@ Ans: */
 //     return calculateSum;
 // };
 
-let num = 23;
+// let num = 23;
 
 
-for(let i = 1; i <= num; i++) {
-    function Fizzbuzz(num) {
-        if (num % 3 === 0 && num % 7 === 0) {
-            return "FizzBuzz";
-        } else if (num % 3 === 0) {
-            return "Fizz";
-        } else if (num % 7 === 0) {
-            return "Buzz";
-        } else if (String(num).includes('3')) {
-            return "Almost Fizz"
-        } else {
-            return String(num);
-        }
-    }
-    console.log(Fizzbuzz(i));
+// for(let i = 1; i <= num; i++) {
+//     function Fizzbuzz(num) {
+//         if (num % 3 === 0 && num % 7 === 0) {
+//             return "FizzBuzz";
+//         } else if (num % 3 === 0) {
+//             return "Fizz";
+//         } else if (num % 7 === 0) {
+//             return "Buzz";
+//         } else if (String(num).includes('3')) {
+//             return "Almost Fizz"
+//         } else {
+//             return String(num);
+//         }
+//     }
+//     console.log(Fizzbuzz(i));
+// }
+
+let arr = [10, 20, 30, 40, 50];
+
+function firstAndLast (arr) {
+    // console.log(arr[0] + arr[arr.length -1]);
+    return arr[0] + arr[arr.length -1];
 }
 
-
+console.log(firstAndLast(arr))
