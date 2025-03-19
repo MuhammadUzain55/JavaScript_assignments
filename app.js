@@ -569,11 +569,69 @@ Ans: */
 //     console.log(Fizzbuzz(i));
 // }
 
-let arr = [10, 20, 30, 40, 50];
 
-function firstAndLast (arr) {
-    // console.log(arr[0] + arr[arr.length -1]);
-    return arr[0] + arr[arr.length -1];
-}
+// function firstAndLast (arr) {
+    //     // console.log(arr[0] + arr[arr.length -1]);
+    //     return arr[0] + arr[arr.length -1];
+    // }
+    
+// console.log(firstAndLast(arr))
 
-console.log(firstAndLast(arr))
+// function swapEnds(arr) {
+//     // Write code here
+//     let myArray = arr;
+//     let first = myArray.shift();
+//     let last = myArray.pop();
+
+    
+//     myArray.push(first);
+//     myArray.unshift(last);
+//     return myArray;
+// }
+
+// console.log(swapEnds(arr))
+
+// let num = 30;
+
+// function findElement(arr, num) {
+//     // Write code here
+//     let checkNum = arr.includes(num);
+//     if (checkNum === true) {
+//         return arr.indexOf(num);
+//     } else {
+    //         return -1;
+    //     }
+// }
+
+// console.log(findElement(arr, num));
+
+// let arr = [1, 2, 3, 4, 5];
+
+// function processArray (arr) {
+//     arr.pop();
+//     arr.push(10);
+//     arr.sort();
+//     let checkElement = arr.includes(20);
+//     let index = arr.indexOf(20);
+//     if (checkElement === true) {
+//         arr[index] = 50
+//     }
+//     arr.reverse()
+//     return arr
+// }
+
+// console.log(processArray(arr));
+
+let numbers = [40, 10, 30, 20, 50, 30, 10];
+
+numbers.sort();
+numbers.reverse();
+
+let firstIndex = numbers.indexOf(30);
+let lastIndex = numbers.lastIndexOf(10);
+let hasHundred = numbers.includes(100);
+
+console.log(numbers);
+console.log(firstIndex);
+console.log(lastIndex);
+console.log(hasHundred);
