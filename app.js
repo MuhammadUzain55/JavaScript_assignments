@@ -636,14 +636,41 @@ Ans: */
 // console.log(lastIndex);
 // console.log(hasHundred);
 
-let text = 'apple pie';
-// Write your code below
-let lowerCaseText = text.toLowerCase();
-let count = 0;
+// let text = 'apple pie';
+// // Write your code below
+// let lowerCaseText = text.toLowerCase();
+// let count = 0;
 
-for (let char of lowerCaseText) {
-    if (char === 'p') {
-        count++;
-    }
-}
-console.log(count);
+// for (let char of lowerCaseText) {
+//     if (char === 'p') {
+//         count++;
+//     }
+// }
+// console.log(count);
+
+let numbers = [1, 2, 3, 4, 5];
+
+// let length = numbers.length;
+// let middleIndex = Math.floor(length / 2);
+// let result;
+
+// if (length % 2 === 1) {
+//     result = numbers.slice(middleIndex - 1, middleIndex + 2);
+// } else {
+//     result = numbers.slice(middleIndex - 1, middleIndex + 1);
+// }
+
+// console.log(result);
+
+let concatenated = numbers.concat([6, 7, 8]);
+console.log(concatenated);
+
+
+let joinedString = concatenated.join(", ");
+console.log(joinedString);
+
+let slicedArray = numbers.slice(0, 3);
+console.log(slicedArray);
+
+numbers.splice(1, 1, 99);
+console.log(numbers);
