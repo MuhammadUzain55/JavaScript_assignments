@@ -648,7 +648,7 @@ Ans: */
 // }
 // console.log(count);
 
-let numbers = [1, 2, 3, 4, 5];
+// let numbers = [1, 2, 3, 4, 5];
 
 // let length = numbers.length;
 // let middleIndex = Math.floor(length / 2);
@@ -662,15 +662,28 @@ let numbers = [1, 2, 3, 4, 5];
 
 // console.log(result);
 
-let concatenated = numbers.concat([6, 7, 8]);
-console.log(concatenated);
+// let concatenated = numbers.concat([6, 7, 8]);
+// console.log(concatenated);
 
 
-let joinedString = concatenated.join(", ");
-console.log(joinedString);
+// let joinedString = concatenated.join(", ");
+// console.log(joinedString);
 
-let slicedArray = numbers.slice(0, 3);
-console.log(slicedArray);
+// let slicedArray = numbers.slice(0, 3);
+// console.log(slicedArray);
 
-numbers.splice(1, 1, 99);
-console.log(numbers);
+// numbers.splice(1, 1, 99);
+// console.log(numbers);
+
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [3, 4, 6];
+
+// let newArray = arr1.filter(item => arr2.indexOf(item) === -1);
+
+// console.log(newArray);
+
+let numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45];
+
+let newNumbers = numbers.slice(2, 7);
+
+console.log(newNumbers);
