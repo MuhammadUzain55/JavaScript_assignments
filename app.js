@@ -682,10 +682,19 @@ Ans: */
 
 // console.log(newArray);
 
-let numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45];
+// let numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45];
 
-let newNumbers = numbers.slice(2, 7);
+// let newNumbers = numbers.slice(2, 7);
 
-console.log(newNumbers);
+// console.log(newNumbers);
 
-numbers.Split
+// numbers.Split
+
+let n = 3;
+
+let rows = parseInt(n / 2) + 1;
+
+for (let i = 0; i < rows; i++) {
+    let stars = "*".repeat(2 * i + 1);
+    console.log(stars);
+}
