@@ -690,11 +690,30 @@ Ans: */
 
 // numbers.Split
 
-let n = 3;
+// let n = 3;
 
-let rows = parseInt(n / 2) + 1;
+// let rows = parseInt(n / 2) + 1;
 
-for (let i = 0; i < rows; i++) {
-    let stars = "*".repeat(2 * i + 1);
-    console.log(stars);
+// for (let i = 0; i < rows; i++) {
+//     let stars = "*".repeat(2 * i + 1);
+//     console.log(stars);
+// }
+
+function analyzeBudget(prices, items, budget) {
+    let affordableItems = [];
+    let totalCost = 0;
+    let outOfBudgetCount = 0;
+
+    for (let i = 0; i < prices.length; i++) {
+        if (prices[i] <= budget) {
+            affordableItems.push(items[i]); // Add item to affordable list
+            totalCost += prices[i]; // Add to total cost
+        } else {
+            outOfBudgetCount++; // Count out-of-budget items
+        }
+    }
+
+    console.log(`Affordable items: ${affordableItems.join(", ") || "None"}`);
+    console.log(`Total budget needed: ${totalCost}`);
+    console.log(`Items out of budget: ${outOfBudgetCount}`);
 }
