@@ -706,10 +706,10 @@ function analyzeBudget(prices, items, budget) {
 
     for (let i = 0; i < prices.length; i++) {
         if (prices[i] <= budget) {
-            affordableItems.push(items[i]); // Add item to affordable list
-            totalCost += prices[i]; // Add to total cost
+            affordableItems.push(items[i]);
+            totalCost += prices[i];
         } else {
-            outOfBudgetCount++; // Count out-of-budget items
+            outOfBudgetCount++;
         }
     }
 
