@@ -29,7 +29,7 @@ document.write(`<h1>Multiplication of ${num1} and ${num2} is ${mulTotal}</h1>`);
 const modTotal = num1 % num2;
 document.write(`<h1>Modulus of ${num1} and ${num2} is ${modTotal}</h1>`); */
 
-// Do the following using JS Mathematic Expressions
+// Qno.03: Do the following using JS Mathematic Expressions
 // a. Declare a variable.
 // b. Show the value of variable in your browser like “Value
 // after variable declaration is: ??”.
@@ -54,3 +54,17 @@ document.write(`<h1>Modulus of ${num1} and ${num2} is ${modTotal}</h1>`); */
 // by 3.
 // l. Output : “The remainder is : 0”.
 
+// Ans: 03.
+
+// Qno.04: Cost of one movie ticket is 600 PKR. Write a script to
+// store
+// ticket price in a variable & calculate the cost of buying 5
+// tickets
+// to a movie. Example output:
+
+// Ans: 04: 
+
+// Qno.05: Write a script to display multiplication table of any
+// number in your browser. E.g
+
+// Ans: 05.
