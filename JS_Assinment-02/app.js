@@ -29,44 +29,55 @@ document.write(`<h1>Multiplication of ${num1} and ${num2} is ${mulTotal}</h1>`);
 const modTotal = num1 % num2;
 document.write(`<h1>Modulus of ${num1} and ${num2} is ${modTotal}</h1>`); */
 
-// Qno.03: Do the following using JS Mathematic Expressions
-// a. Declare a variable.
-// b. Show the value of variable in your browser like “Value
-// after variable declaration is: ??”.
-// c. Initialize the variable with some number.
-// d. Show the value of variable in your browser like “Initial
-// value: 5”.
-// e. Increment the variable.
-// f. Show the value of variable in your browser like “Value
-// after increment is: 6”.
-// g. Add 7 to the variable.
-// h. Show the value of variable in your browser like “Value
+/* Qno.03: Do the following using JS Mathematic Expressions
+a. Declare a variable.
+b. Show the value of variable in your browser like “Value
+after variable declaration is: ??”.
+c. Initialize the variable with some number.
+d. Show the value of variable in your browser like “Initial
+value: 5”.
+e. Increment the variable.
+f. Show the value of variable in your browser like “Value
+after increment is: 6”.
+g. Add 7 to the variable.
+h. Show the value of variable in your browser like “Value
+after addition is: 13”.
+i. Decrement the variable.
+j. Show the value of variable in your browser like “Value
+after decrement is: 12”.
+k. Show the remainder after dividing the variable’s value
+by 3.
+l. Output : “The remainder is : 0”.
 
-// MATH EXPRESSIONS | JAVASCRIPT
+Ans: 03. let a = "??";
+document.write(`<p>Value after variable declaration is: ${a}</p>`);
+a = 5;
+document.write(`<p>Initial value: ${a}</p>`);
+a++;
+document.write(`<p>Value after increment is: ${a}</p>`);
+a = a + 7;
+document.write(`<p>Value after addition is: ${a}</p>`);
+a--;
+document.write(`<p>Value after decrement is: ${a}</p>`);
+a = a % 3;
+document.write(`<p>The remainder is: ${a}</p>`); */
 
-// Page 2 of 9
+/* Qno.04: Cost of one movie ticket is 600 PKR. Write a script to
+store
+ticket price in a variable & calculate the cost of buying 5
+tickets
+to a movie. Example output:
 
-// after addition is: 13”.
-// i. Decrement the variable.
-// j. Show the value of variable in your browser like “Value
-// after decrement is: 12”.
-// k. Show the remainder after dividing the variable’s value
-// by 3.
-// l. Output : “The remainder is : 0”.
+Ans. 04: let ticketPrice = 600;
+let totalTicketPrice = ticketPrice * 5;
+document.write(`<p>Total cost to buy 5 tickets to a movie is ${totalTicketPrice}PKR</p>`) */
 
-let a = "VALUE AFTER VARIABLE DECLARATION IS: ??";
-document.write(`<p>${a}</p>`);
-a = 12345;
+/* Qno.05: Write a script to display multiplication table of any
+number in your browser. E.g
 
-// Qno.04: Cost of one movie ticket is 600 PKR. Write a script to
-// store
-// ticket price in a variable & calculate the cost of buying 5
-// tickets
-// to a movie. Example output:
+Ans. 05: let num = 5;
+for (let i = 1; i <= 10; i++) {
+    document.write(`<p>${num} x ${i} = ${num * i}</p>`)
+} */
 
-// Ans: 04: 
-
-// Qno.05: Write a script to display multiplication table of any
-// number in your browser. E.g
-
-// Ans: 05.
+    
