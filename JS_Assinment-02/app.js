@@ -54,7 +54,9 @@ document.write(`<h1>Modulus of ${num1} and ${num2} is ${modTotal}</h1>`); */
 // by 3.
 // l. Output : “The remainder is : 0”.
 
-// Ans: 03.
+let a = "VALUE AFTER VARIABLE DECLARATION IS: ??";
+document.write(`<p>${a}</p>`);
+a = 12345;
 
 // Qno.04: Cost of one movie ticket is 600 PKR. Write a script to
 // store
