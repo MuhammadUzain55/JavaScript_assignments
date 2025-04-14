@@ -80,11 +80,23 @@ for (let i = 1; i <= 10; i++) {
     document.write(`<p>${num} x ${i} = ${num * i}</p>`)
 } */
 
-// Qno.06: The Temperature Converter: It’s hot out! Let’s make a
-// converter based on the steps here.
-// a. Store a Celsius temperature into a variable.
-// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
-// c. Now store a Fahrenheit temperature into a variable.
-// d. Convert it to Celsius & output “NNoF is NNoC”.
+/* Qno.06: The Temperature Converter: It’s hot out! Let’s make a
+converter based on the steps here.
+a. Store a Celsius temperature into a variable.
+b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+c. Now store a Fahrenheit temperature into a variable.
+d. Convert it to Celsius & output “NNoF is NNoC”.
 
-// Conversion Formulae:
+Conversion Formulae:
+
+Ans. 06: let celsiusTemp = 25;
+let Fahrenheit = (celsiusTemp * 9 / 5) + 32;
+
+document.write(`<h1>${celsiusTemp}°C is ${Fahrenheit}°F</h1>`)
+
+let FahrenheitTemp = 70;
+let Celsius = (FahrenheitTemp - 32) * 5 / 9;
+
+document.write(`<h1>${Fahrenheit}°F is ${Celsius}°C</h1>`); */
+
+
