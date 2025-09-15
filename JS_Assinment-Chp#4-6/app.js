@@ -138,4 +138,44 @@ document.write(`<h1>${Fahrenheit}°F is ${Celsius}°C</h1>`); */
 
 // Compute the total cost & show the receipt in your browser.
 
+// Ans.07: document.write(`<h1>Shopping Cart<h1/>`);
+
+// let priceOfItem1 = prompt("Please Enter the Price Item 1");
+// let priceOfItem2 = prompt("Please Enter the Price of Item 2");
+// let oderQty1 = prompt("Please Enter Quantity 1");
+// let oderQty2 = prompt("Please Enter Quatity 2");
+// let shippingCharges = 100
+
+// document.write(`<p>Price of Item 1 is ${priceOfItem1}<p/>`);
+// document.write(`<p>Quantity of Item 1 is ${oderQty1}<p/>`);
+// document.write(`<p>Price of Item 2 is ${priceOfItem2}<p/>`);
+// document.write(`<p>Quantity of Item 2 is ${oderQty2}<p/>`);
+// document.write(`<p>Shipping Charges ${shippingCharges}<p/>`);
+
+// let calculatePrice = ((priceOfItem1 * oderQty1) + (priceOfItem2 * oderQty2) + shippingCharges);
+
+// document.write(`<p>Total Cost of your Order ${calculatePrice}<p/>`);
+
+// Qno.08: 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser
+
+// Ans.08: document.write(`<h1>Mark Sheet<h1/>`)
+
+// let totalMarks = prompt("Plese Enter Total Marks");
+// let obtainedMarks = prompt("Plese Enter Obtained Marks");
+// let calculatePercentage = (obtainedMarks * 100) / totalMarks;
+
+// document.write(`<p>Total Marks: ${totalMarks}<p/>`);
+// document.write(`<p>Marks Obtained: ${obtainedMarks}<p/>`);
+// document.write(`<p>Percentage: ${calculatePercentage}<p/>`);
+
+// Qno.09: Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+
+
 
