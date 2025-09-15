@@ -1,29 +1,3 @@
-//============= Chapter# 4 (Variable Names: Legal and illegal) ==============
-
-// Qno.1: Declare 3 variables in one statement.
-
-// Ans: var a = 1, var b = 2, var c = 3;
-
-// Qno.2: Declare 5 legal & 5 illegal variable names.
-
-// Ans: Legal variables names: 1. userName 2. _fullName 3. $lastName 4. user_age 5. user123
-// Illegal variables names: 1. 123user 2. user-name 3. @name 4. var 5. full name
-
-// Qno.3: Display this in your browser
-// a) A heading stating “Rules for naming JS variables”
-// b) Variable names can only contain ______, ______,
-// ______ and ______.
-// For example $my_1stVariable
-// c) Variables must begin with a ______, ______ or
-// _____. For example $name, _name or name
-// d) Variable names are case _________
-// e) Variable names should not be JS _________
-
-// Ans: document.write("<h1>Rules for naming JS variables</h1>");
-// document.write("<p>Variable names can only contain, numbers, $ and _. For example: $my_1stVariable</p>")
-// document.write("<P>Variables must begin with a letter, $ or _. For example $name, _name or name</p>")
-// document.write("<P>Variable names are case sensitive</p>")
-// document.write("<P>Variable names should not be JS keywords</p>")
 
 // ========================= Chapter# 9-11 (USER INPUT & CONDITIONAL STATEMENT) =================================
 
