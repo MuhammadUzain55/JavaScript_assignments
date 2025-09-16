@@ -160,7 +160,7 @@ document.write(`<h1>${Fahrenheit}°F is ${Celsius}°C</h1>`); */
 // variables. Compute the percentage & show the result in
 // your browser
 
-// Ans.08: document.write(`<h1>Mark Sheet<h1/>`)
+// Ans.08: document.write(`<h1>Mark Sheet<h1/>`);
 
 // let totalMarks = prompt("Plese Enter Total Marks");
 // let obtainedMarks = prompt("Plese Enter Obtained Marks");
@@ -175,6 +175,37 @@ document.write(`<h1>${Fahrenheit}°F is ${Celsius}°C</h1>`); */
 // Perform all calculations in a single expression.
 // (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
 // and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+// Ans.09: document.write(`<h1>Currency In PKR<h1/>`);
+
+// let dollarRate = prompt("Please Enter Dollar 1$ equal PKR is 104.80");
+// let saudiRiyalRate = prompt("Please Enter Saudi Riyal 1r equal PKR is 28");
+
+// let calculateDollar = dollarRate * 104.80;
+// let calculateSaudiRiyal = saudiRiyalRate * 28;
+
+// document.write(`<p>Total Currency in PKR: ${calculateDollar + calculateSaudiRiyal}</p>`);
+
+// Qno.10: Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+
+// let addNumber = parseInt(prompt("Please Enter Number"));
+
+// let calculateAddition = addNumber + 5;
+// let calculateMultiplication = calculateAddition * 10;
+// let calculateDividend = calculateMultiplication / 2;
+
+// document.write(`<p>Add 5: ${calculateAddition}<p/>`);
+// document.write(`<p>Multiply by 10: ${calculateMultiplication}<p/>`);
+// document.write(`<p>Divide the result by 2: ${calculateDividend}<p/>`);
+
+
+
+
 
 
 
