@@ -203,8 +203,32 @@ document.write(`<h1>${Fahrenheit}°F is ${Celsius}°C</h1>`); */
 // document.write(`<p>Multiply by 10: ${calculateMultiplication}<p/>`);
 // document.write(`<p>Divide the result by 2: ${calculateDividend}<p/>`);
 
+// Qno.11: The Age Calculator: Forgot how old someone is?
+// Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored
+// values.
+// Output them to the screen like so: “They are either NN or NN
+// years old”.
 
+// Ans.11: document.write(`<h1>Age Calculator<h1/>`);
 
+// let currentYear = parseInt(prompt("Please Enter Current Year"));
+// let birthYear = parseInt(prompt("Please Enter Birth Year"));
+// let calculate = currentYear - birthYear;
+
+// document.write(`<p>Current Year: ${currentYear}`);
+// document.write(`<p>Birth Year: ${birthYear}`);
+// document.write(`<p>Birth Year: ${calculate} or ${calculate+1}`);
+
+// Qno.12: The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
 
 
 
